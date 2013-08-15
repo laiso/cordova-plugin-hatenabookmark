@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	id="so.lai.cordova.plugins.HatenaBookmark"
+	version="3.0.6">
+
+	<name>HatenaBookmark</name>
+
+	<asset src="www/HatenaBookmark.js" target="HatenaBookmark.js" />
+
+	<!-- ios -->
+	<platform name="ios">
+		<plugins-plist key="HatenaBookmark" />
+
+		<header-file src="HatenaBookmark.h" />
+
+		<source-file src="HatenaBookmark.m" />
+	</platform>
+
+</plugin>
