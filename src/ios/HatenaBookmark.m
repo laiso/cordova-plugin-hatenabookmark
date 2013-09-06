@@ -1,11 +1,7 @@
 #import "HatenaBookmark.h"
 #import <Cordova/CDV.h>
 
-#import "HTBHatenaBookmarkManager.h"
-#import "HTBHatenaBookmarkAPIClient.h"
-#import "HTBNavigationBar.h"
-#import "HTBLoginWebViewController.h"
-#import "HTBHatenaBookmarkViewController.h"
+#import "HatenaBookmarkSDK.h"
 
 @implementation HatenaBookmark
 
